@@ -6,3 +6,8 @@ echo employee is present
 else 
 echo employee is absent
 fi
+
+
+fulldhr=8
+wageperhr=20
+echo Fullday Employee Wage is- "$(($fulldhr*$wageperhr))"
